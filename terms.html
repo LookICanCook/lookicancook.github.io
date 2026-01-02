@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <style>
         .legal-page {
-            padding: 120px 0 80px;
+            padding: 50px 0 80px;
             min-height: calc(100vh - 200px);
         }
         .legal-content {
@@ -115,12 +115,20 @@
     </header>
 
     <!-- Legal Content -->
+
     <section class="legal-page">
         <div class="container">
             <div class="legal-content">
-                <a href="index.html" class="back-link">Back to Home</a>
+                <div name="termly-embed" data-id="31e8e113-6b22-40b3-901f-18bbe84b5798"></div>
+                <script type="text/javascript">(function(d, s, id) {
+                  var js, tjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "https://app.termly.io/embed-policy.min.js";
+                  tjs.parentNode.insertBefore(js, tjs);
+                }(document, 'script', 'termly-jssdk'));</script>
                 
-                <h1>Terms of Service</h1>
+<!--                 <h1>Terms of Service</h1>
                 <p class="last-updated">Last updated: [Date]</p>
 
                 <p>
@@ -185,7 +193,7 @@
 
                 <p style="margin-top: 48px;">
                     <em>Note: This is a template. Please replace this content with your actual terms of service.</em>
-                </p>
+                </p> -->
             </div>
         </div>
     </section>
