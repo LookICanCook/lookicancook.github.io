@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support - Get help with Look I Can Cook">
+    <title>Support - Look I Can Cook</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .support-page {
+            padding: 50px 0 80px;
+            min-height: calc(100vh - 200px);
+        }
+        .support-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .support-content h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: var(--text);
+        }
+        .support-content h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        .support-content h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .support-content p {
+            margin-bottom: 16px;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+        .support-content ul, .support-content ol {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            color: var(--text-light);
+        }
+        .support-content li {
+            margin-bottom: 8px;
+            line-height: 1.8;
+        }
+        .support-email {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary);
+            margin: 24px 0;
+        }
+        .support-email a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .support-email a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo.svg" alt="Look I Can Cook" class="logo-icon" width="40" height="40">
+                <img src="assets/images/logo-text.svg" alt="Look I Can Cook" class="logo-text" height="24">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#how-it-works">How It Works</a></li>
+                <li><a href="index.html#screenshots">Screenshots</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="https://app.lookicancook.com/login" class="btn btn-secondary" id="login-btn">Log In</a>
+                <a href="https://app.lookicancook.com/signup" class="btn btn-primary" id="signup-btn">Sign Up</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#how-it-works">How It Works</a></li>
+                <li><a href="index.html#screenshots">Screenshots</a></li>
+                <li><a href="https://app.lookicancook.com/login" class="btn btn-secondary">Log In</a></li>
+                <li><a href="https://app.lookicancook.com/signup" class="btn btn-primary">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Support Content -->
+    <section class="support-page">
+        <div class="container">
+            <div class="support-content">
+                <h1>Support</h1>
+                
+                <h2>How to Get Help</h2>
+                <p>
+                    Need help with Look I Can Cook? We're here to assist you!
+                </p>
+                <p>
+                    Email us at <span class="support-email"><a href="mailto:support@lookicancook.com">support@lookicancook.com</a></span>
+                </p>
+                <p>
+                    We usually reply within 1–2 business days.
+                </p>
+
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How do I extract a recipe from a photo?</div>
+                    <div class="faq-answer">
+                        Simply upload a photo of your recipe using the app. Our AI will automatically extract the ingredients, instructions, and other details from the image.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Can I import recipes from websites?</div>
+                    <div class="faq-answer">
+                        Yes! You can paste a link from any recipe website, and we'll extract the recipe information for you automatically.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">How do I organize my recipes?</div>
+                    <div class="faq-answer">
+                        You can create color-coded folders (similar to Pinterest boards) and organize your recipes by theme, cuisine, or any category you prefer.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Is my data secure?</div>
+                    <div class="faq-answer">
+                        Yes, we take your privacy seriously. Your recipes and personal information are stored securely. Please see our <a href="privacy.html">Privacy Policy</a> for more details.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Can I use the app in multiple languages?</div>
+                    <div class="faq-answer">
+                        Yes! Our AI understands and can extract recipes from multiple languages. You can also create and view recipes in any language.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/logo.svg" alt="Look I Can Cook" class="footer-logo" width="32" height="32">
+                    <img src="assets/images/logo-text.svg" alt="Look I Can Cook" class="footer-logo-text" height="20">
+                </div>
+                <div class="footer-info">
+                    <div class="footer-links">
+                        <a href="privacy.html">Privacy</a>
+                        <a href="terms.html">Terms</a>
+                    </div>
+                    <div class="footer-contact">
+                        <a href="mailto:hello@lookicancook.com">hello@lookicancook.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Open Impetus Innovations FZ LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
